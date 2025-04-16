@@ -2,14 +2,14 @@
 
 ## Description
 This is a simple **Java console-based Animal Shelter Management System** that allows users to:
--  Add new animals (Dog, Cat, Bird)
+-  Add new animals (Dog, Cat, Bird, Rabbit)
 -  Record animal details (name, age, type, breed, arrival date)
 -  List all animals
 -  Mark animals as adopted
 -  Save and load data from a text file
 
 The system ensures:
--  Only allowed animal types (Dog, Cat, Bird)
+-  Only allowed animal types (Dog, Cat, Bird, Rabbit)
 -  Valid date format using regular expressions (`yyyy/MM/dd`)
 -  Input safety with number and string validation
 
@@ -17,7 +17,7 @@ The system ensures:
 
 ##  Features
 -  **Add New Animal**
-  - Enter animal type (Dog/Cat/Bird)
+  - Enter animal type (Dog/Cat/Bird/Rabbit)
   - Enter name, age, breed, arrival date
   - Validates numeric and date formats
 
@@ -25,7 +25,7 @@ The system ensures:
   - Displays animal details with adoption status
 
 -  **Select Animal Type**
-  - Ensures only valid types (Dog, Cat, Bird) are accepted
+  - Ensures only valid types (Dog, Cat, Bird, Rabbit) are accepted
 
 -  **Mark as Adopted**
   - Change adoption status of an animal by name
@@ -33,15 +33,6 @@ The system ensures:
 -  **File Storage**
   - Saves and loads animal data from a text file for data persistence
 
----
-
-## 🛠Technologies Used
-- Java (JDK 17+)
-- Console-based user interface
-- Regular Expressions for input validation
-- File I/O (text file)
-
----
 
 ## Installation
 1. Clone the repository:
