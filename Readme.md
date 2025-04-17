@@ -33,6 +33,8 @@ The system ensures:
 -  **File Storage**
   - Saves and loads animal data from a text file for data persistence
 
+## Class Digaram
+  -[classdiagram.png]
 
 ## Installation
 1. Clone the repository:
