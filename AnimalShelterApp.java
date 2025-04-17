@@ -9,7 +9,7 @@ public class AnimalShelterApp {
         int choice;
 
         do {
-            System.out.println("\n🐾 Animal Shelter Management 🐾");
+            System.out.println("\n Animal Shelter Management");
             System.out.println("1. Add New Animal");
             System.out.println("2. List All Animals");
             System.out.println("3. List Animals by Type");
@@ -27,7 +27,7 @@ public class AnimalShelterApp {
                     shelter.listAnimals();
                     break;
                 case 3:
-                    System.out.print("Enter type to list (Dog/Cat): ");
+                    System.out.print("Enter type to list (Dog/Cat/Rabbit/Bird): ");
                     String type = sc.nextLine();
                     shelter.listByType(type);
                     break;
@@ -49,7 +49,7 @@ public class AnimalShelterApp {
         String type;
         do{
             System.out.print("Enter animal type (Dog/Cat/Bird/Rabbit): ");
-             type = sc.nextLine();
+            type = sc.nextLine();
             if (!type.equalsIgnoreCase("Dog") && !type.equalsIgnoreCase("Cat") && !type.equalsIgnoreCase("Bird") && !type.equalsIgnoreCase("Rabbit")) {
                 System.out.println("Invalid animal type. Only 'Dog', 'Cat' or 'Bird' are allowed.");
             }
@@ -84,27 +84,28 @@ public class AnimalShelterApp {
         } while (!isValidDate(date));
 
         BaseAnimal animal = null;
-        if (type.equalsIgnoreCase("Dog")) {
-            animal = new Dog(name, age, breed, date, false);
-        } else if (type.equalsIgnoreCase("Cat")) {
-            animal = new Cat(name, age, breed, date, false);
-        
-        } else if(type.equalsIgnoreCase("Rabbit")){
-           animal=new Rabbit(name, age, breed, date, false);
-        }else if(type.equalsIgnoreCase("Bird")){
-            animal=new Bird(name, age, breed, date, false);
-        }
-        else {
-            
-            System.out.println("Unknown animal type.");
-            return;
+        try {
+            if (type.equalsIgnoreCase("Dog")) {
+                animal = new Dog(name, age, breed, date, false);
+            } else if (type.equalsIgnoreCase("Cat")) {
+                animal = new Cat(name, age, breed, date, false);
+            } else if (type.equalsIgnoreCase("Rabbit")) {
+                animal = new Rabbit(name, age, breed, date, false);
+            } else if (type.equalsIgnoreCase("Bird")) {
+                animal = new Bird(name, age, breed, date, false);
+            } else {
+                throw new InvalidAnimalTypeException("Unknown animal type: " + type);
+            }
+
+            shelter.addAnimal(animal); // only add if valid
+
+        } catch (InvalidAnimalTypeException e) {
+            System.out.println(e.getMessage());
         }
 
-        shelter.addAnimal(animal);
-        System.out.println("Animal added!");
-    }
 
     private static boolean isValidDate(String date) {
         return date.matches("^\\d{4}/(0[1-9]|1[0-2])/([0][1-9]|[12][0-9]|3[01])$");
     }
+}
 }
