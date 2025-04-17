@@ -34,7 +34,7 @@ The system ensures:
   - Saves and loads animal data from a text file for data persistence
 
 ## Class Digaram
-  -[classdiagram.png]
+  ![Class Diagram](images/class_diagram.png)
 
 ## Installation
 1. Clone the repository:
