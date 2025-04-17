@@ -1,2 +1,0 @@
-Dog,koko,1,husky,2025/03/12,false
-Cat,hoho,3,parsian,2023/12/04,false
