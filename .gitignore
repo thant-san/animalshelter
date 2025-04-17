@@ -1,0 +1,21 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore data files (optional — if you don’t want to commit your animal records)
+data/animals.txt
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
