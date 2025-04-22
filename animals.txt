@@ -1,6 +1,2 @@
-Dog,jojo,2,husky,2024/12/04,false
-Cat,gogo,3,parsian,2023/12/03,false
-Bird,jojo,4,parsian,2023/12/12,false
-Dog,koko,1,fsdfs,2024/12/12,true
-Cat,8484848,22,fsdf,2000/12/31,false
-Cat,df,33,dfd,9999/12/12,true
+Dog,Pucci,2,Meow,2025/04/23,false
+Cat,Iccup,2,Woem,2025/04/23,false

@@ -45,5 +45,5 @@ The system ensures:
 1.Thant Htoo San
 2. Hein Zaw
 3. Nyan Sint Zaw
-4. Nedi Zeya
+4. Nadi Zeya
 5. Min Thein Kyaw
