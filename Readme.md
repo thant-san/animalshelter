@@ -17,21 +17,21 @@ The system ensures:
 
 ##  Features
 -  **Add New Animal**
-  - Enter animal type (Dog/Cat/Bird/Rabbit)
-  - Enter name, age, breed, arrival date
-  - Validates numeric and date formats
+    - Enter animal type (Dog/Cat/Bird/Rabbit)
+    - Enter name, age, breed, arrival date
+    - Validates numeric and date formats
 
 -  **List All Animals**
-  - Displays animal details with adoption status
+    - Displays animal details with adoption status
 
 -  **Select Animal Type**
-  - Ensures only valid types (Dog, Cat, Bird, Rabbit) are accepted
+    - Ensures only valid types (Dog, Cat, Bird, Rabbit) are accepted
 
 -  **Mark as Adopted**
-  - Change adoption status of an animal by name
+    - Change adoption status of an animal by name
 
 -  **File Storage**
-  - Saves and loads animal data from a text file for data persistence
+    - Saves and loads animal data from a text file for data persistence
 
 ## Class Digaram
   ![Class Diagram](images/classdiagram.png)
