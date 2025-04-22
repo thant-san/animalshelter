@@ -42,8 +42,8 @@ The system ensures:
    git clone https://github.com/your-username/animal-shelter-management.git
    cd animal-shelter-management
 ## Contributors
-1.Thant Htoo San
-2. Hein Zaw
-3. Nyan Sint Zaw
-4. Nedi Zeya
-5. Min Thein Kyaw
+1.Thant Htoo San (6731503087)
+2. Hein Zaw      (6731503055)
+3. Nyan Sint Zaw (6731503077)
+4. Nadi Zeya     (6731503070)
+5. Min Thein Kyaw(6731503067)
