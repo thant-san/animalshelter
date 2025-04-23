@@ -1,3 +1,11 @@
+## Project Background
+
+In response to the growing number of stray and abandoned animals in Myanmar which also has underdeveloped and under budgeted birth-controlling programs for the stray animals in urban cities like Yangon and Mandalay, our Project focuses on developing a management system for an animal shelter. 
+
+## Project Rationale
+
+This system aims to support shelter operations by organizing data of new animals including breed, age, arrival dates and adoption status. Basic OOP principles of encapsulation, inheritance and polymorphism are used to ensure the program is usable and helpful for the shelters to manage animal data-entry.
+
 #  Animal Shelter Management System (Java Console App)
 
 ## Description
